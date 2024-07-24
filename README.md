@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Extractor de Cookies
 
-## Getting Started
+## Descripción
+El Extractor de Cookies es una herramienta web diseñada para analizar y visualizar las cookies utilizadas por cualquier sitio web. Desarrollada con Next.js y TypeScript, esta aplicación ofrece una interfaz intuitiva para examinar las políticas de cookies de diferentes sitios web.
 
-First, run the development server:
+## Características
+- **Extracción de Cookies**: Analiza cualquier URL para obtener información detallada sobre sus cookies.
+- **Visualización en Tiempo Real**: Muestra una barra de progreso durante el proceso de extracción.
+- **Tabla de Cookies**: Presenta las cookies encontradas en una tabla clara y organizada.
+- **Exportación de Datos**: Permite exportar la información de las cookies en formato HTML.
+- **Diseño Responsivo**: Funciona perfectamente tanto en dispositivos móviles como de escritorio.
+- **Modo Oscuro**: Incluye un toggle para cambiar entre modo claro y oscuro.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologías Utilizadas
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Playwright
+- Shadcn UI
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Cómo Funciona
+1. El usuario ingresa una URL en el campo de entrada.
+2. La aplicación utiliza Playwright para navegar a la página y extraer las cookies.
+3. Las cookies se presentan en una tabla con detalles como nombre, dominio, fecha de expiración, etc.
+4. Los usuarios pueden exportar los resultados o copiar la tabla en formato HTML.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contribuciones
+Las contribuciones son bienvenidas. Si tienes una sugerencia para mejorar esta aplicación, no dudes en abrir un issue o enviar un pull request.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="center">Desarrollado con ❤️ por Adrián Racovita</p>
